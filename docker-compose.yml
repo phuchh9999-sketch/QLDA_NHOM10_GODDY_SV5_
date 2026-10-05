@@ -1,0 +1,23 @@
+version: '3.8'
+
+services:
+  goddy-app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: goddy-recruit-staging
+    restart: always
+    ports:
+      - "3000:3000"
+    environment:
+      - PORT=3000
+      - NODE_ENV=production
+      - JWT_SECRET=goddy_secret_key_2026_staging
+    volumes:
+      - ./data:/app/data
+      - ./backups:/app/backups
+    healthcheck:
+      test: ["CMD", "wget", "--quiet", "--tries=1", "--spider", "http://localhost:3000/api/dashboard/stats"]
+      interval: 30s
+      timeout: 5s
+      retries: 3

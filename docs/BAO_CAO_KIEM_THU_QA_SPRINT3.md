@@ -1,5 +1,6 @@
 # BÁO CÁO KIỂM THỬ CHẤT LƯỢNG ACCEPTANCE CRITERIA SPRINT 3
 **Dự án:** GODDY Recruit - Quản lý Hóa đơn & Công nợ Tuyển dụng  
+**Giảng viên hướng dẫn (GVHD):** **ThS. Nguyễn Hữu Trung**  
 **Người lập báo cáo (DBA & QA SV5):** Huỳnh Nguyễn Vĩnh Phúc (MSSV: `2380614923`)  
 **Người tiếp nhận (Project Manager):** Nguyễn Hữu Phúc  
 **Mã công việc:** `TASK-157` (Tuần 5 - Nghiệm thu Sprint 3: Dashboard & Báo cáo quản trị)  

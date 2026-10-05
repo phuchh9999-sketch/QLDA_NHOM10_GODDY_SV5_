@@ -1,5 +1,6 @@
 # BÁO CÁO ĐO LƯỜNG ĐỘ BAO PHỦ KIỂM THỬ SPRINT 1 (JEST COVERAGE REPORT)
 **Dự án:** GODDY Recruit - Quản lý Hóa đơn & Công nợ Tuyển dụng  
+**Giảng viên hướng dẫn (GVHD):** **ThS. Nguyễn Hữu Trung**  
 **Thành viên thực hiện (QA & DBA):** Huỳnh Nguyễn Vĩnh Phúc (MSSV: `2380614923`)  
 **Mã công việc:** `TASK-062` (Tuần 2 - Sprint 1)  
 **Tiêu chuẩn chất lượng:** Tỷ lệ Statement Coverage >= 80%

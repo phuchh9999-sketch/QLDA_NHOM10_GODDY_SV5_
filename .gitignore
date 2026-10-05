@@ -1,5 +1,7 @@
 node_modules/
-database.sqlite
 .env
+database.sqlite
 *.log
-.DS_Store
+__pycache__/
+~$*
+backups/*.sqlite
